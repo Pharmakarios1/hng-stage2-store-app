@@ -3,6 +3,7 @@ import "./Products.css";
 import Card from "../Card/Card.jsx";
 import defaultExport from "../../constants/data.js";
 import { heart } from "../../assets/index.js";
+import { Link } from "react-router-dom";
 const Products = () => {
   console.log(defaultExport.chairs);
   return (
@@ -31,7 +32,9 @@ const Products = () => {
         <div className="products-items">
           <div className="product-header">
             <h3>BEST COLLECTION</h3>
-            <h3>View All</h3>
+            <Link to="/Products">
+              <h3>View All</h3>
+            </Link>
           </div>
           <ul>
             {defaultExport.chairs.map((item) => {
@@ -52,7 +55,9 @@ const Products = () => {
         <div className="products-items">
           <div className="product-header">
             <h3>BEST SELLERS</h3>
-            <h3>View All</h3>
+            <Link to="/Products">
+              <h3>View All</h3>
+            </Link>
           </div>
           <ul>
             {defaultExport.chairs.map((item) => {
