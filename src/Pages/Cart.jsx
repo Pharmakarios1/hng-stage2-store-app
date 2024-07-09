@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
 import "../Components/Card/Card.css";
@@ -154,8 +155,7 @@ const ProductDetails = () => {
               <p>Excluding Delivery Charges</p>
             </div>
             <button>
-              {/* <img src={cart_light} alt="" /> */}
-              Continue to CheckOut
+              <Link to="/checkout">Continue to CheckOut</Link>
             </button>
             <div>
               <span>We accept</span>

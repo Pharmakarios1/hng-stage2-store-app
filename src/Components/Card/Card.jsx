@@ -1,11 +1,14 @@
 // import { heart } from "../../assets";
 import "./Card.css";
+import { Link } from "react-router-dom";
 
 const Card = ({ img, desc, type }) => {
   return (
     <div className="card-wrapper">
       <div className="card-image-wrapper">
-        <img src={img} />
+        <Link to="Productdetails">
+          <img src={img} />
+        </Link>
         <p className="title">{type}</p>
       </div>
 
@@ -17,7 +20,9 @@ const Card2 = ({ img, desc, price, name, heart, pricedec }) => {
   return (
     <div className="card-outline">
       <div className="card-image-wrapper">
-        <img src={img} />
+        <Link to="Productdetails">
+          <img src={img} />
+        </Link>
       </div>
       <div className="namedheart">
         <p className="name">{name}</p>
