@@ -137,27 +137,27 @@ const ProductDetails = () => {
               <h4>Order Summary</h4>
               <h4>4 item</h4>
             </div>
-            <div className="cart-desc-flex">
-              <p>Delivery Charges</p>
-              <p>
+            <div className="cart-desc-flex-item">
+              <h5>Delivery Charges</h5>
+              <span>
                 Enter your delivery address at checkout to view Delivery costs.
-              </p>
+              </span>
             </div>
-            <div className="cart-desc-item-color">
+            <div className="cart-desc-item-total">
               <p>Subtotal</p>
               <p>$3500</p>
             </div>
-            <div className="cart-desc-item-price">
+            <div className="cart-desc-item-total">
               <h4>Total</h4>
               <p>$3,900</p>
             </div>
-            <div className="cart-display-item-rating">
+            <div className="cart-desc-delivery">
               <p>Excluding Delivery Charges</p>
             </div>
-            <button>
+            <button className="btn-cart">
               <Link to="/checkout">Continue to CheckOut</Link>
             </button>
-            <div>
+            <div className="payment-option">
               <span>We accept</span>
               <img src={visaLogo} alt="" />
               <img src={master} alt="" />

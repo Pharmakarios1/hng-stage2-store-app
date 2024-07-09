@@ -85,9 +85,27 @@
     justify-content: center;
     border-radius: 10px;
 }
-@media (max-width:600) {
-    .sidebar ul{
+@media (max-width:600px) {
+    .sidebar{
         display: none;
     }
-    
+    .container{
+        padding: 10px 1rem;
+        
+    }
+    .product-display .product-display-header div{
+        display: none
+    }
+   
+        
+    .product-display .products ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .pagination div ul{
+        display: flex;
+        gap: 1rem;
+    }
 }

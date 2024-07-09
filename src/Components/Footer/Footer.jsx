@@ -28,13 +28,42 @@ const Footer = () => {
 
       <ul>
         <li className="list-item">
-          <p>Shop</p> <img src={angle_right} alt="angle-right" />
+          <p>
+            <ul>
+              <h3> Shop</h3>
+              <li className="none-in-mobile">Furniture</li>
+              <li className="none-in-mobile">Best Sellers</li>
+              <li className="none-in-mobile">Kitchen & Dining</li>
+              <li className="none-in-mobile">Tech & Bar</li>
+            </ul>
+          </p>{" "}
+          <img src={angle_right} alt="angle-right" />
         </li>
         <li className="list-item">
-          <p>Support</p> <img src={angle_right} alt="angle-right" />
+          <p>
+            {" "}
+            <ul>
+              <h3>Support</h3>
+              <li className="none-in-mobile">Return Portal</li>
+              <li className="none-in-mobile">Shipping Policy</li>
+              <li className="none-in-mobile">Privacy Policy</li>
+              <li className="none-in-mobile">Piracy Policy</li>
+            </ul>
+          </p>{" "}
+          <img src={angle_right} alt="angle-right" />
         </li>
         <li className="list-item">
-          <p> Contact</p> <img src={angle_right} alt="angle-right" />
+          <p>
+            {" "}
+            <ul>
+              <h3>Connect</h3>
+              <li className="none-in-mobile">Blogs</li>
+              <li className="none-in-mobile">About US</li>
+              <li className="none-in-mobile">Account/Login</li>
+              <li className="none-in-mobile">Contact Us</li>
+            </ul>
+          </p>{" "}
+          <img src={angle_right} alt="angle-right" />
         </li>
       </ul>
     </div>

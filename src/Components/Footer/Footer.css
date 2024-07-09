@@ -31,10 +31,19 @@
 
    }
 .logo-wrapper .socials{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin:1rem 5rem;
+    
+}
+.none-in-mobile{
     display: none;
 }
 @media (min-width: 900px){
-
+    .none-in-mobile{
+        display: block;
+    }
     .footer{
         padding: 6rem;
         display: flex;
@@ -60,7 +69,13 @@
    }
    .footer ul{     
     display: flex;
-    gap: 7rem; 
+    gap: 1rem; 
+}
+.list-item p ul{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
 }
     .footer ul li{
         padding:  0;
