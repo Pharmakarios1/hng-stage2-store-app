@@ -1,0 +1,8 @@
+.checkout-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem;
+    border-bottom: 1px solid rgb(233, 226, 226);
+    margin-bottom: 3rem;
+}

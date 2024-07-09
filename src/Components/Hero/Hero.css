@@ -1,0 +1,138 @@
+.hero{
+    padding: 0 15px; 
+}
+.hero-image{
+    background-image: url(../../assets/hero_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(600-370px);
+    height: 300px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;  
+    height: 300px;
+    position: relative;
+   
+}
+.hero img{
+    width: 360px;
+    height: 300px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;    
+}
+.hero-about{
+    width: 343px;
+    position: absolute;
+    top: 38%;
+}
+.hero-about h2{
+    text-align: center;
+    color: white;
+}
+.hero-about ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: wrap;
+}
+.hero-about ul li{
+    
+    font-size: 9px;
+    padding-left: .5rem;
+    color: white;
+}
+.hero-about p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+@media(min-width:601px) and (max-width:899px){
+   
+.hero-image{
+    background-image: url(../../assets/hero_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: calc(899-720px);
+    height: 400px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;  
+    height: 300px;
+    position: relative;
+}
+.hero-about{
+    width: 500px;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+}
+.hero-about h2{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+.hero-about ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: wrap;
+}
+.hero-about ul li{
+    
+    font-size: 13px;
+    padding-left: .5rem;
+    color: white;
+}
+.hero-about p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+}
+
+@media (min-width: 900px){
+
+    .hero-image{
+        background-image: url(../../assets/hero_desktop.png);
+        background-repeat: no-repeat;
+        width: calc(1500-900px);
+        height: 625px;
+        position: relative;
+    }
+    .hero-about{
+        position: absolute;
+        top: 60%;
+        left: 22%;
+    }
+    .hero-about h2{
+        width: 700px; ;
+        font-size: 55px;
+        text-align: center;
+        color: white;
+    }
+    .hero-about ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 29px;
+        margin-top: 2rem;
+        width: 800px;
+    }
+    .hero-about ul li{
+        font-size: 20px;
+        color: white;
+    }
+    .hero-about p{
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+}

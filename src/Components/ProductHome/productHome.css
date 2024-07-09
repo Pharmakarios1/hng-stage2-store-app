@@ -1,0 +1,92 @@
+.bread-crumb{
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+.container{
+    padding: 10px 70px;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.sidebar ul{
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+
+}
+.sidebar ul li{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.sidebar ul li div{
+    display: flex;
+    gap: 10px;
+    color:#000000CC;
+    ;
+}
+
+
+
+/* Products */
+.product-display {
+    margin-left: 10rem;
+}
+.product-display .product-display-header p{
+    margin-bottom: 1rem;
+}
+.product-display .product-display-header div{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.product-display .product-display-header div p.active{
+    font-weight: 600;
+}
+
+
+.product-display .products{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    /* border: 1px solid greenyellow; */
+  }
+
+
+.product-display .products ul{
+   display: flex;
+   gap: 1rem;
+}
+
+
+
+
+.pagination{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pagination div ul{
+    display: flex;
+    gap: 2rem;
+}
+.pagination .active{
+    width: 25px;
+    height: 25px;
+    background: rgb(241, 197, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+@media (max-width:600) {
+    .sidebar ul{
+        display: none;
+    }
+    
+}

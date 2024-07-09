@@ -1,0 +1,148 @@
+.card-wrapper{
+    width: 360px;
+}
+
+.card-image-wrapper{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+}
+.card-desc{
+    width: 244px;
+    height: 48px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Card 2 */
+
+.card-outline{
+    border: 1px solid rgb(204, 200, 200);
+    width: 263px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 20px;
+    padding: 5px 0.3rem;
+}
+.namedheart{
+    display: flex;
+    font-size: .9rem;
+    align-items: center;
+    padding:0 .3rem;
+    font-weight: 600;
+    gap: 5rem;
+    cursor: pointer;
+    
+}
+.card-descr{
+    padding:0 0.3rem ;
+    font-size: .9rem;
+}
+.price{
+    display: flex;
+    padding: 0 .3rem;
+    gap: 1rem;
+}
+.price p{
+    color: black;
+    font-weight: 600;
+}
+.price del{
+    color: grey;
+}
+
+
+
+
+
+
+
+/* Cart Cards */
+.product-img{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    /* overflow-y: scroll; */
+}
+.cart-card{
+    width: 783px;
+    height: 212px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart-card-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash img{
+    width: 20px;
+    height: 25px;
+}
+.cart-card-content-img{
+    display:flex;
+    gap: 2rem;
+}
+.trash{
+    display:flex;
+    gap: 1rem;
+}  
+
+.cart-card-content-img img{
+    width: 124px;
+    height: 118px;
+}
+.cart-card-content-img .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cart-card-content-img .text span{
+   color: grey;
+}
+
+.counter {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.counter button{
+   border: none;
+   background: white;
+   cursor: pointer;
+ 
+}
+
+.amount{
+   margin-top: 2rem; 
+}
+.amount p{
+    font-weight: 600;
+}
+.amount del{
+    color: grey;
+}
