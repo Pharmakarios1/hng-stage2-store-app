@@ -13,7 +13,6 @@ const Hero = () => {
             <li data-aos="zoom-out">Modern Aesthetics</li>
             <li data-aos="fade-left">Customer Satisfaction</li>
           </ul>
-          {/* <p>Customer Satisfaction</p> */}
         </div>
       </div>
     </>

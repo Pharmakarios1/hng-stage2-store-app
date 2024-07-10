@@ -3,24 +3,14 @@ import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
 import "../Components/Card/Card.css";
 import "../Components/ProductHome/productDetails.css";
-import Card from "../Components/Card/Card.jsx";
 import { FaAngleRight } from "react-icons/fa";
-import {
-  cart_light,
-  verve,
-  master,
-  visaLogo,
-  PayPal,
-  Trash,
-  chair1,
-} from "../assets";
-import { RiStarSFill } from "react-icons/ri";
+import { verve, master, visaLogo, PayPal, Trash, chair1 } from "../assets";
 
 const ProductDetails = () => {
   return (
     <div>
       <Nav />
-      <div className="bread-crumb">
+      <div className="bread-crumb-cart">
         home <FaAngleRight /> Furniture <FaAngleRight /> sofa <FaAngleRight />
         LuxeComfort Sectional Sofa <FaAngleRight /> Cart
       </div>

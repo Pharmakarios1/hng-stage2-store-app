@@ -153,6 +153,9 @@
 
 
 /* Cart */
+.bread-crumb-cart{
+    margin-left: 7rem;
+}
 .cart-desc{
     gap: 2rem;
 }
@@ -199,16 +202,22 @@
 
 
  @media (max-width:600px) {
+    .bread-crumb-cart{
+        margin-left: 1rem;
+    }
     .product-top{
         flex-direction: column;
+        align-items: center;
     }
     .cart-card{
-        width: 400px;
+        margin-left: .5rem;
+        width: 95%;
 
     }
-    
-   
-
+    .cart-desc{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
     .trash img{
         width: 17px;
         height: 20px;
