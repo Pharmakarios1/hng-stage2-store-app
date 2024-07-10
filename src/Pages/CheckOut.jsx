@@ -23,17 +23,17 @@ const CheckOut = () => {
         LuxeComfort Sectional Sofa <FaAngleRight /> Cart
       </div>
       <div className="product-detail-wrapper">
-        <div className="product-top">
-          <div className="product-img">Lets take your Order</div>
+        <div className="product-items-wrapper">
+          <div className="product-item">Lets take your Order</div>
           <div className="cart-desc-checkout">
             <div className="cart-desc-flex">
               <h4>ORDER DETAILS</h4>
               <h4>Update Cart</h4>
             </div>
-            <div className="cart-desc-flex-item">
+            <div className="cart-items-amount">
               <img src={chair1} alt="" />
               <div>
-                <h4>LuxeComfort Sectional Sofa</h4>
+                <h>LuxeComfort Sectional Sofa</h>
                 <p>1 Seater Sofa (Sand Beige)</p>
                 <h4>$3500</h4>
                 <p>Quantity: 1</p>

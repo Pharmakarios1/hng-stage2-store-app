@@ -10,7 +10,7 @@ const ProductDetails = () => {
   return (
     <div>
       <Nav />
-      <div className="bread-crumb-cart">
+      <div className="bread-crumb">
         home <FaAngleRight /> Furniture <FaAngleRight /> sofa <FaAngleRight />
         LuxeComfort Sectional Sofa <FaAngleRight /> Cart
       </div>

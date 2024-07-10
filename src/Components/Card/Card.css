@@ -170,8 +170,8 @@
 }
 .cart-desc-flex-item{
     display: flex;
-    gap: 4rem;
-    padding-bottom: 1rem;
+    gap: 3rem;
+    padding-bottom: .5rem;
     border-bottom: 1px solid rgb(213, 209, 209);
 
 }
@@ -196,6 +196,8 @@
 .payment-option{
     display: flex;
     gap: 1.4rem;
+    margin-bottom: 1rem;
+
 }
  .payment-option img{
     width: 30px;
