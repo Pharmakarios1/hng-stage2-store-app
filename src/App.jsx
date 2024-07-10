@@ -1,16 +1,22 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Layout from "./Components/Layout";
-import Products from "./Components/Products/Products";
-// import Nav from "./Components/Nav/Nav";
-// import Products from "./Components/Products/Products";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProductHome from "./Pages/ProductHome";
 import Cart from "./Pages/Cart";
 import CheckOut from "./Pages/CheckOut";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    });
+  }, []);
   return (
     <>
       <BrowserRouter>

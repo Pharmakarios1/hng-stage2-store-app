@@ -7,9 +7,11 @@ const Card = ({ img, desc, type }) => {
     <div className="card-wrapper">
       <div className="card-image-wrapper">
         <Link to="Productdetails">
-          <img src={img} />
+          <img src={img} data-aos="slide-up" />
         </Link>
-        <p className="title">{type}</p>
+        <p className="title" data-aos="zoom-out">
+          {type}
+        </p>
       </div>
 
       <div className="card-desc">{desc}</div>
@@ -21,7 +23,7 @@ const Card2 = ({ img, desc, price, name, heart, pricedec }) => {
     <div className="card-outline">
       <div className="card-image-wrapper">
         <Link to="Productdetails">
-          <img src={img} />
+          <img src={img} data-aos="fade-up" />
         </Link>
       </div>
       <div className="namedheart">
