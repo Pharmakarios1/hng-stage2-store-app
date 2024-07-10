@@ -154,6 +154,8 @@
 
 /* Cart */
 .bread-crumb-cart{
+    display: flex;
+    align-items: center;
     margin-left: 7rem;
 }
 .cart-desc{
@@ -203,6 +205,7 @@
 
  @media (max-width:600px) {
     .bread-crumb-cart{
+        font-size: 13px;
         margin-left: 1rem;
     }
     .product-top{
