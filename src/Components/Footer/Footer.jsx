@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="logo-wrapper">
-        <img src={footer_logo} alt="logo" />
+        <img src={footer_logo} alt="logo" className="logo-img" />
         <p>
           Alpha Furniture, your go-to destination for stylish and affordable
           home furnishings. Our curated selection offers modern designs and

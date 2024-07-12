@@ -24,7 +24,13 @@
    
 }
 .logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2rem;
+}
+.logo-wrapper .logo-img{
+    width: 16rem;
 }
 .logo-wrapper p{
    display: none;
@@ -33,6 +39,7 @@
 .logo-wrapper .socials{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     margin:1rem 5rem;
     
